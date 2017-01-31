@@ -6,7 +6,7 @@ Instala el conky y copia el archivo ".conkyrc" en el home de su usuario.
 ```
 sudo apt-get install conky-all
 ```
-Puedes encontrar ayuda aqui [HumanOS](https://humanos.uci.cu/search/instalar+conky)
+Puedes encontrar ayuda aquí [HumanOS](https://humanos.uci.cu/search/instalar+conky)
 ###  Los procesadores y una barra de cada uno de ellos con su % de uso.
 ```
 ${font Ubuntu:style=bold:size=12}Procesadores $hr
@@ -37,7 +37,7 @@ ${font Ubuntu:style=bold:size=12}Batería $hr
 ${font Ubuntu:style=bold:size=10} ${battery BAT1} $alignr
 ${battery_bar BAT1}
 ```
-### Los datos de la interfas de red "enp1s0"
+### Los datos de la interfaz de red "enp1s0"
 ```
 ${if_existing /proc/net/route enp1s0} 
 ${font  Ubuntu:style=bold:size=12}Red ${hr}
@@ -46,7 +46,7 @@ In: ${color white}${downspeed enp1s0} kb/s $alignr Total Up: ${color white}${tot
 Out: ${color white}${upspeed enp1s0} kb/s $alignr Total Down: ${color white}${totaldown enp1s0}
 ${endif}
 ```
-### Los datos de la interfas de red wifi "wlp2s0"
+### Los datos de la interfaz de red wifi "wlp2s0"
 ```
 ${if_existing /proc/net/route wlp2s0} 
 ${font  Ubuntu:style=bold:size=12}WIFI ${hr}
