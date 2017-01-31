@@ -1,5 +1,5 @@
 # humanOS-Conky es una configuración de conky para mostrar información sobre el estado del sistema.
-
+![humanOS conky](/art/art1.png)
 ###  Los procesadores y una barra de cada uno de ellos con su % de uso.
 ```
 ${font Ubuntu:style=bold:size=12}Procesadores $hr
