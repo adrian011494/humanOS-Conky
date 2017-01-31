@@ -1,4 +1,4 @@
- humanOS-Conky es una configuración de conky para mostrar información sobre el estado del sistema.
+# humanOS-Conky es una configuración de conky para mostrar información sobre el estado del sistema.
 
 ###  Los procesadores y una barra de cada uno de ellos con su % de uso.
 ```
