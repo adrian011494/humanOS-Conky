@@ -1,5 +1,12 @@
 # humanOS-Conky es una configuración de conky para mostrar información sobre el estado del sistema.
 ![humanOS conky](/art/art1.png)
+
+## Instalación 
+Instala el conky y copia el archivo ".conkyrc" en el home de su usuario.
+```
+sudo apt-get install conky-all
+```
+Puedes encontrar ayuda aqui [HumanOS](https://humanos.uci.cu/search/instalar+conky)
 ###  Los procesadores y una barra de cada uno de ellos con su % de uso.
 ```
 ${font Ubuntu:style=bold:size=12}Procesadores $hr
